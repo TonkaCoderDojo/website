@@ -7,6 +7,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: "Trebuchet MS", sans-serif;
 }
 
 div {}
@@ -39,15 +40,36 @@ iframe {}
 
 /* define section */
 
-h1 {}
+h1 {
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
 
-h2 {}
+h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
 
-h3 {}
+h3 {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
 
 p {}
 
-a {}
+a {
+    color: darkred;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkblue;
+}
 
 blockquote {}
 
@@ -225,74 +247,28 @@ output {}
 
 /* -- positional */
 
-nav li {
-    width: 25%;
-}
-
-nav ul { /* main ul */
+nav ul {
+    padding: 0;
     background: red;
-    padding: 0;
     list-style: none;
-    position: relative;
-    display: inline-table;
-}
-
-nav ul:after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
-nav ul ul { /* secondary ul */
-    display: none;
-    background: #red;
-    padding: 0;
-    position: absolute; /* there. not after */
-    top: 100%; /* immediately under nav ul */
+    display: table;
+    width: 100%;
+    table-layout: fixed;
 }
 
 nav ul li {
-    float: left; /* for position: relative of ul */
+    display: table-cell;
+    text-align: center;
 }
 
 nav ul li a {
     display: block;
-    color #blue;
-    text-decoration: none;
-}
-
-nav ul li:hover {
-    background: red;
-}
-
-nav ul li:hover a {
     color: white;
 }
 
-nav ul li:hover > ul {
-    display: block;
-}
-
-nav ul ul li {
-    float: none; 
-    border-top: 1px solid white;
-    border-bottom: 1px solid lightgrey;
-    position: relative;
-}
-
-nav ul ul li a {
-    padding: 15px 40px;
-    color: #fff;
-}
-
-nav ul ul li a:hover {
-    background: white;
-}
-
-nav ul ul ul { /* tertiary ul */
-    position: absolute;
-    left: 100%;
-    top: 0;
+nav ul li a:hover {
+    background: darkred;
+    color: white;
 }
 
 /* -- selector */
