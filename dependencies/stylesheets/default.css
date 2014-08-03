@@ -1,0 +1,222 @@
+/* ---- Layout ---- */
+
+body {}
+
+div {}
+
+nav {}
+
+header {}
+
+article {}
+
+section {}
+
+footer {}
+
+aside {}
+
+details {}
+
+summary {}
+
+dialog {}
+
+iframe {}
+
+/* ---- Text Content ---- */
+
+/* define section */
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+p {}
+
+a {}
+
+blockquote {}
+
+pre {}
+
+small {}
+
+span{}
+
+style {}
+
+/* -- define type */
+
+address {}
+
+code {}
+
+samp {}
+
+strong {}
+
+var {}
+
+/* -- alter word */
+
+abbr {}
+
+del {}
+
+dfn {}
+
+time {}
+
+u {}
+
+/* -- alter group */
+
+b {}
+
+i {}
+
+em {}
+
+q {}
+
+s {}
+
+sub {}
+
+sup {}
+
+bdi {}
+
+bdo {}
+
+ins {}
+
+kbd {}
+
+mark {}
+
+/* -- organization - text */
+
+hr {
+    
+}
+
+/* -- organization - lists */
+
+ul {}
+
+ol {}
+
+li {}
+
+dl {}
+
+dt {}
+
+dd {}
+
+menu {}
+
+menuitem {}
+
+/* -- organization - tables */
+
+table {}
+
+caption {}
+
+th {}
+
+tr {}
+
+td {}
+
+thead {}
+
+tbody {}
+
+tfoot {}
+
+col {}
+
+colgroup {}
+
+/* ---- Other Content ---- */
+
+/* -- static visual */
+
+img {}
+
+map {}
+
+area {}
+
+canvas {}
+
+figcaption {}
+
+figure {}
+
+/* -- non-static visual */
+
+meter {}
+
+progress {}
+
+video {}
+
+/* -- auditory */
+
+audio {}
+
+/* ---- Input ---- */
+
+form {}
+
+/*input {} // use selectors below */
+
+textarea {}
+
+button {}
+
+select {}
+
+optgroup {}
+
+option {}
+
+label {}
+
+fieldset {}
+
+legend {}
+
+datalist {}
+
+keygen {}
+
+output {}
+
+
+
+
+
+
+
+
+
+
+
+/* ---- specific ---- */
+
+/* -- selector */
+
+
+/* -- class */
+
+
+/* -- id */
+
