@@ -1,12 +1,23 @@
+/* ---- Import Fonts ---- */
+
+
+
 /* ---- Layout ---- */
 
-body {}
+body {
+    padding: 0;
+    margin: 0;
+}
 
 div {}
 
-nav {}
+nav {
+    width: 100%;
+}
 
-header {}
+header {
+    width: 100%;
+}
 
 article {}
 
@@ -212,10 +223,84 @@ output {}
 
 /* ---- specific ---- */
 
+/* -- positional */
+
+nav li {
+    width: 25%;
+}
+
+nav ul { /* main ul */
+    background: red;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+}
+
+nav ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+nav ul ul { /* secondary ul */
+    display: none;
+    background: #red;
+    padding: 0;
+    position: absolute; /* there. not after */
+    top: 100%; /* immediately under nav ul */
+}
+
+nav ul li {
+    float: left; /* for position: relative of ul */
+}
+
+nav ul li a {
+    display: block;
+    color #blue;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: red;
+}
+
+nav ul li:hover a {
+    color: white;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul li {
+    float: none; 
+    border-top: 1px solid white;
+    border-bottom: 1px solid lightgrey;
+    position: relative;
+}
+
+nav ul ul li a {
+    padding: 15px 40px;
+    color: #fff;
+}
+
+nav ul ul li a:hover {
+    background: white;
+}
+
+nav ul ul ul { /* tertiary ul */
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
 /* -- selector */
 
 
+
 /* -- class */
+
 
 
 /* -- id */

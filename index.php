@@ -10,7 +10,8 @@
 	    <?php include($_SERVER["DOCUMENT_ROOT"] . "/dependencies/includes/menu.php"); ?>
 	</header>
 	<article>
-	    
+	    <p>Message to people building this site for the moment:<br /><em>Be a programmer please, not a Coder</em>. I'd like to come back to edit this site and be able to understand what's going on. Have the end in mind when starting out.<br /> Thank you.</p>
+	    <p>Oh, and don't forget to help fill out empty links when you create the page</p>
 	</article>
 	<footer>
 	    <?php include($_SERVER["DOCUMENT_ROOT"] . "/dependencies/includes/footer.php"); ?>
