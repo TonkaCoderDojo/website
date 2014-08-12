@@ -1,4 +1,4 @@
 website
 =======
 
-Tonka Coder Dojo website
+Website for the Coder Dojo of Minnetonka

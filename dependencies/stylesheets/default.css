@@ -17,7 +17,9 @@ nav {
 }
 
 header {
-    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #99CCFF;
 }
 
 article {}
@@ -247,8 +249,19 @@ output {}
 
 /* -- positional */
 
+header h1 {
+    color: white;
+    padding: 0.2em 0;
+}
+
+header h2 {
+    color: white;
+    padding: 0 0 0.5em 0;
+}
+
 nav ul {
     padding: 0;
+    margin: 0;
     background: red;
     list-style: none;
     display: table;
@@ -262,6 +275,7 @@ nav ul li {
 }
 
 nav ul li a {
+    padding: 0.5em; /* height of nav bar */
     display: block;
     color: white;
 }
