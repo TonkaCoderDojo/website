@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <html>
     <head>
 	<?php include($_SERVER["DOCUMENT_ROOT"] . "/dependencies/includes/head.php"); ?>

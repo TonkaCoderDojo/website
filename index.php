@@ -2,22 +2,17 @@
 <html>
     <head>
 	<?php include($_SERVER["DOCUMENT_ROOT"] . "/dependencies/includes/head.php"); ?>
-	<title>Tab Title</title>
+	<title>Coder Dojo Minnetonka</title>
     </head>
     <body>
 	<header>
-	    <h1>Main Title</h1>
-	    <h2>Subtitle</h2>
+	    <h1>Coder Dojo</h1>
+	    <h2>Minnetonka, Minnesota, United States of America</h2>
 	    <?php include($_SERVER["DOCUMENT_ROOT"] . "/dependencies/includes/menu.php"); ?>
 	</header>
 	<article>
-	    <section>
-		<h1>Section Title</h1>
-		<p>Section content</p>
-		<p>get rid of the section tag if it is not a site that has sections</p>
-		<p>get rid of the setupeditor php include if it is not a site that should be edited with markup</p>
-		<p>use sections if it makes sense. please, it helps for readability</p>
-	    </section>
+	    <p>Message to people building this site for the moment:<br /><em>Be a programmer please, not a Coder</em>. I'd like to come back to edit this site and be able to understand what's going on. Have the end in mind when starting out.<br /> Thank you.</p>
+	    <p>Oh, and don't forget to help fill out empty links when you create the page</p>
 	</article>
 	<footer>
 	    <?php include($_SERVER["DOCUMENT_ROOT"] . "/dependencies/includes/footer.php"); ?>
