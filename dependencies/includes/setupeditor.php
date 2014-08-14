@@ -2,7 +2,7 @@
 
 // verification
 if ($_SESSION["login"] == "true") { // setup
-    include($_SERVER["DOCUMENT_ROOT"] . "dependencies/includes/epiceditor.php");
+    include($_SERVER["DOCUMENT_ROOT"] . "dependencies/includes/editor.php");
 }
 
 ?>

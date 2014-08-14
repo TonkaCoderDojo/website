@@ -5,7 +5,7 @@ $username = "coderdojo";
 $password = "minnetonka";
 
 // verification
-if ($_POST["username"] == $username && $_POST["password"] == $password) { // succeeded
+if (($_POST["username"] == $username && $_POST["password"] == $password) || $_SESSION["login"] == "true") { // succeeded
     $_SESSION["login"] = "true";
 } else { // failed
     session_destroy(); // because of first line
