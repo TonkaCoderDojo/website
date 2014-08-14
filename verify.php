@@ -27,6 +27,7 @@ if (($_POST["username"] == $username && $_POST["password"] == $password) || $_SE
 	</header>
 	<article>
 	    <p>Welcome</p>
+	    <a href="logout.php">Log Out</a>
 	</article>
 	<footer>
 	    <?php include($_SERVER["DOCUMENT_ROOT"] . "/dependencies/includes/footer.php"); ?>
